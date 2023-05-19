@@ -6,4 +6,4 @@ const numberedArray = (array) => {
   return numberedStrings;
 };
 
-console.log(numberedArray['a', 'b', 'c']));
+console.log(numberedArray[('a', 'b', 'c')]);
