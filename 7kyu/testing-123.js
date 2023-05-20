@@ -1,4 +1,4 @@
-const number = (array) => {
+const numberedArray = (array) => {
   let numberedStrings = [];
   array.forEach((string, i) => {
     numberedStrings[i] = `${i + 1}: ${string}`;
@@ -6,4 +6,4 @@ const number = (array) => {
   return numberedStrings;
 };
 
-console.log(number(['a', 'b', 'c']));
+console.log(numberedArray['a', 'b', 'c']));
