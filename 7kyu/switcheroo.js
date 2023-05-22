@@ -19,5 +19,4 @@ function switcheroo(x) {
   return stringToArray.join('');
 }
 
-// console.log(switcheroo('abc'));
 switcheroo('abbac');
