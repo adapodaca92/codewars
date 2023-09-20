@@ -6,3 +6,4 @@ const isAnagram = function(test, original){
   };
   
   console.log(isAnagram("Buckethead", "DeathCubeK"));
+
